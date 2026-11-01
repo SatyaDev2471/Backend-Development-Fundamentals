@@ -8,9 +8,21 @@
 
 ## 2. Live Deployment
 
-- **Live URL:** [Add your deployed Lab 02 URL here]
-- **Deployment Platform:** Not deployed yet
-- **Status:** Local development and API testing completed
+- **Live URL:** https://bdf-lab-02-0svi.onrender.com/
+- **Deployment Platform:** Render
+- **Status:** Successfully Deployed
+- **Database:** SQLite
+- **Hosting Type:** Render Web Service
+
+### Live API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/books/` | Retrieve all books |
+| GET | `/books/:bookId/` | Retrieve a specific book |
+| POST | `/books/` | Add a new book |
+| PUT | `/books/:bookId/` | Update an existing book |
+| DELETE | `/books/:bookId/` | Delete a book |
 
 ## 3. Objective
 
@@ -624,8 +636,7 @@ The screenshots are stored in the `screenshots/` folder.
 
 ### G. SQLite Database Verification
 
-![SQLite Database](screenshots/sqlite-verification.png)
-[SQLite Database](screenshots/sqlite-verification1.png)
+![SQLite Database](screenshots/sqlite-verification.png, screenshots/sqlite-verification1.png)
 
 ## 14. HTTP Status Codes
 
