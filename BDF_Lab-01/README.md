@@ -234,7 +234,7 @@ Expected response:
 Clone the repository:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/SatyaDev2471/Backend-Development-Fundamentals
 ```
 
 Navigate to the lab folder:
