@@ -636,7 +636,7 @@ The screenshots are stored in the `screenshots/` folder.
 
 ### G. SQLite Database Verification
 
-![SQLite Database](screenshots/sqlite-verification.png, screenshots/sqlite-verification1.png)
+![SQLite Database](screenshots/sqlite-verification.png), (screenshots/sqlite-verification1.png)
 
 ## 14. HTTP Status Codes
 
