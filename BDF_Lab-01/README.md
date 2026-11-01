@@ -7,9 +7,13 @@
 - **Registration Number:** 252U1R8085
 - **Class:** CSE-QE-2B
 
-## 2. Live Deployment Link
+## 2. Live Deployment 
 
-**Live URL:** Not deployed yet.
+**Live URL:** https://bdf-lab-01-i60l.onrender.com
+
+**Deployment Platform:** Render
+
+**Status:** Successfully Deployed
 
 ## 3. Objective
 
