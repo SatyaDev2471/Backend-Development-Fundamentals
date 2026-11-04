@@ -21,6 +21,31 @@ To develop a clean REST API using Node.js, Express.js and SQLite by implementing
 - Postman
 - npm
 
+## Deployment
+
+The Lab 03 REST API is deployed successfully using Render.
+
+- **Deployment Platform:** Render
+- **Service Name:** bdf-lab-03
+- **Live URL:** https://bdf-lab-03.onrender.com/
+- **Status:** Deployed
+
+### Live API Endpoints
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/books/` | Retrieve all books |
+| GET | `/books/:bookId/` | Retrieve a specific book |
+| POST | `/books/` | Add a new book |
+| PUT | `/books/:bookId/` | Update a book |
+| DELETE | `/books/:bookId/` | Delete a book |
+
+The GET `/books/` endpoint supports search, sorting, pagination, price filtering and combined filters.
+
+### Database Note
+
+The application uses SQLite. The ordinary Render filesystem may not persist database changes across restarts or redeployments. Database persistence depends on the configured storage.
+
 ## Project Structure
 
 ```text
