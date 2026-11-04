@@ -29,7 +29,6 @@ app.use((request, response) => {
   response.status(404).send('404 - Page Not Found')
 })
 
-// Start server
 const PORT = process.env.PORT || 3000
 
 app.listen(PORT, () => {
