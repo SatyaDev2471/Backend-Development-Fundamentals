@@ -26,7 +26,6 @@ To develop a clean REST API using Node.js, Express.js and SQLite by implementing
 The Lab 03 REST API is deployed successfully using Render.
 
 - **Deployment Platform:** Render
-- **Service Name:** bdf-lab-03
 - **Live URL:** https://bdf-lab-03.onrender.com/
 - **Status:** Deployed
 

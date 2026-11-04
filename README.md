@@ -1,8 +1,8 @@
 # Backend Development Fundamentals (BDF)
- 
+
 ### Practical Labs 01–10
 
-A collection of practical laboratory exercises completed as part of the **Backend Development Fundamentals** course. This repository documents my journey of learning backend development through hands-on implementation, database operations, API development, testing, and deployment.
+A collection of practical laboratory exercises completed as part of the **Backend Development Fundamentals** course. This repository documents my journey of learning backend development through hands-on implementation, database operations, API development, testing, debugging, and deployment.
 
 ---
 
@@ -48,26 +48,25 @@ BDF_Labs/
 │   └── README.md
 │
 ├── BDF_Lab-03/
+│   ├── screenshots/
+│   ├── app.js
+│   ├── bookStore.db
+│   ├── package.json
+│   └── README.md
 │
 ├── BDF_Lab-04/
-│
 ├── BDF_Lab-05/
-│
 ├── BDF_Lab-06/
-│
 ├── BDF_Lab-07/
-│
 ├── BDF_Lab-08/
-│
 ├── BDF_Lab-09/
-│
 ├── BDF_Lab-10/
 │
 ├── .gitignore
 └── README.md
 ```
 
-*Each lab folder contains its own source code, screenshots, and README documentation.*
+*Each lab folder contains its own source code, screenshots, dependencies and README documentation.*
 
 ---
 
@@ -97,7 +96,7 @@ The following technologies and tools are used throughout the practical exercises
 |---|---|---|
 | **Lab 01** | Node.js and Express Server | Completed |
 | **Lab 02** | SQLite Database and CRUD Routes | Completed |
-| **Lab 03** | Upcoming | Pending |
+| **Lab 03** | REST API, Query Parameters, Validation and Debugging | Completed |
 | **Lab 04** | Upcoming | Pending |
 | **Lab 05** | Upcoming | Pending |
 | **Lab 06** | Upcoming | Pending |
@@ -121,6 +120,12 @@ The following technologies and tools are used throughout the practical exercises
 - **Description:** Connected an Express application to an SQLite database and implemented CRUD operations.
 - **Deployment Platform:** Render
 - **Live URL:** https://bdf-lab-02-0svi.onrender.com/
+
+### Lab 03 – REST API, Query Parameters, Validation and Debugging
+
+- **Description:** Enhanced the SQLite book API with search, sorting, pagination, price-range filtering, input validation, appropriate HTTP status codes and debugging techniques.
+- **Deployment Platform:** Render
+- **Live URL:** https://bdf-lab-03.onrender.com/
 
 ---
 
@@ -167,7 +172,7 @@ Each completed lab includes:
 
 ## 📈 Learning Journey
 
-This repository represents my continuous learning journey in backend development. Each practical assignment helps me strengthen my understanding of programming concepts, server-side development, database management, API design, testing, and deployment.
+This repository represents my continuous learning journey in backend development. Each practical assignment helps me strengthen my understanding of programming concepts, server-side development, database management, API design, testing, debugging, and deployment.
 
 I aim to build a strong foundation in backend technologies by implementing concepts rather than simply learning them theoretically.
 
